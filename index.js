@@ -8,7 +8,7 @@ function writeCards(names) {
     const message = `Thank you, ${names[i]},${events}`;
     myMessages.push(message);
     console.log(message);
-    debugger;
+    debugger
   }
 
   return myMessages;
